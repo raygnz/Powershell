@@ -13,8 +13,8 @@ Email: philiphgray@gmail.com
 Version 1.0 - 31/07/24 - Initial
 Version 1.1 - 31/07/24 - Add $Settings so scheduled task runs even if on battery mode.
 #>
-$RemoteComputer = "<computername>"
-$Cred = "<domain\adm-user>"
+$RemoteComputer = Read-Host "Enter remote computername"
+$Cred = Read-Host "Enter admin username"
 # Connect to remote computer
 Invoke-Command -ComputerName "$RemoteComputer" -Credential "$Cred" -ScriptBlock {
 # Create scheduled task on remote computer
