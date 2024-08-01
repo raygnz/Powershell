@@ -10,6 +10,7 @@ $Cred = <Admin account with permissions to run the script>"
 -UserId user account that will run the scheduled task. This must be the user you are trying to reset Citrix Workspace App for.
 Author: Phil Gray
 Email: philiphgray@gmail.com
+URL: https://github.com/raygnz/Powershell
 Version 1.0 - 31/07/24 - Initial
 Version 1.1 - 31/07/24 - Add $Settings so scheduled task runs even if on battery mode.
 #>
